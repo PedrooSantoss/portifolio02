@@ -10,8 +10,8 @@
 
 :root {
   --hue: 90;
-  --primary-color: hsl(var(--hue), 92%, 43%);
-  --primary-hover: hsl(var(--hue), 92%, 33%);
+  --primary-color: hsl(225, 73%, 57%);
+  --primary-hover: hsl(225, 73%, 50%);
   --secundary-color: hsl(0, 0%, 5%);
   --third-color: hsla(0, 0%, 100%, 0.1);
   --bg-color: hsl(0, 0%, 8%);
@@ -614,10 +614,13 @@ body.light-mode #home img#notebook-2-white {
 
 #projects {
   background-color: var(--secundary-color);
+  color: #fff;
+  padding-block: 6rem;
 }
 
 #projects header {
   margin-bottom: 6rem;
+  text-align: center;
 }
 
 #projects header h2 {
